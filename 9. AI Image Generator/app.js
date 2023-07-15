@@ -3,7 +3,7 @@ const button = document.querySelector("button.submit");
 const imageContainer = document.querySelector("section.imageContainer");
 const form = document.querySelector("form");
 const input = document.querySelector("input.description");
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "USE_YOUR_OWN_KEY";
 
 // avoid refresh
 function handleForm(event) {
