@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #303841;
+
+}
+
+.wrapper{
+    width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.container{
+    width: 100%;
+    background-color:#303841;
+    padding: 50px 40px;
+    box-shadow: 0 20px 65px rgba(0, 0, 0, 0.413);
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+}
+.container::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 120%;
+    background-color: #EA9215;
+    z-index: -1;
+    top: -10%;
+    left: 10%;
+}
+.container p{
+    color: #fff;
+    line-height: 2;
+    font-size: 18px;
+}
+.container h3{
+    color: rgb(206, 206, 206);
+    font-size: 16px;
+    font-weight: 200;
+    margin: 20px 0 60px 0;
+    text-transform: capitalize;
+
+}
+
+.container button{
+    background-color: #EA9215;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #303841;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+button:active{
+    transform: scale(.98);
+}
+.container i{
+    color: #EA9215;
+    font-size: 40px;
+   position: absolute;
+   left: 20px;
+   top: 10px;
+}
